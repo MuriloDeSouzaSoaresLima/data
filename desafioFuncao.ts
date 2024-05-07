@@ -17,8 +17,8 @@ switch (dataCorreta) {
     case true:
         console.log(`${dia}/${mes}/${ano}`)
         break;
-
-    default:
+    case false:
         console.log(`Insira uma data valida`)
+    default:
         break;
 }
